@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <style> 
+    input[type=submit] {
+      background:rgb(96, 159, 207);
+      padding: 8px 55px;
+      font-size: 20px;
+    }
+    </style>
+    </head>
+    <body>
+        <h2><p style="color:#265a86;">NEW PERSON</p></h2>
+
+        <table style="width:70%;font-size: 30px;">
+          <form action="/persons/getpersondata" method="post">
+  <tr>
+      <td>
+          <label>
+              First Name:
+          </label>
+      </td>
+      <td><input type="text" name="FirstName" pattern="[a-z A-Z]*$">
+      </td>
+  </tr>
+  
+  <tr>
+      <td>
+          <label>
+              Last Name:
+          </label>
+      </td>
+      <td><input type="text" name="LastName" pattern="[a-z A-Z]*$">
+      </td>
+  </tr>
+  
+  <tr>
+      <td>
+          <label>
+              Id:
+          </label>
+      </td>
+      <td> <input type="number" name="id" >
+      </td>
+  </tr>
+  
+  <tr>
+      <td>
+          <label>
+              Birthday:
+          </label>
+      </td>
+      <td>  <input type="text" name="birthday"  pattern="(([0][1-9])|([1-3][0-9]))[-](([0][1-9])|([1][0-2]))[-]([1-2][0-9][0-9][0-9])">
+  
+      </td>
+  </tr>
+      
+  <tr>
+      <td>
+          <label>
+              Address:
+          </label>
+      </td>
+  </tr>
+  
+  <tr>
+      <td>
+          <label>
+              City:
+          </label>
+      </td>
+      <td>  <input type="text" name="city" pattern="[a-z A-Z]*$">
+  
+      </td>
+      <td>
+          <label>
+              Street:
+          </label>
+      </td>
+      <td>  <input type="text" name="street" pattern="[a-z A-Z]*$" >
+      </td>
+      <td>
+          <label>
+              Number:
+          </label>
+      </td>
+      <td>   <input type="number" name="number" >
+      </td>
+  </tr>
+  
+  <tr>
+      <td>
+          <label>
+              Phone:
+          </label>
+      </td>
+      <td>  <input type="number" name="phone" >
+      </td>
+      <td>
+          <label>
+              Cell phone:
+          </label>
+      </td>
+      <td>   <input type="number" name="cellphone" >
+      </td>
+     
+  </tr>
+  
+  
+  
+  <tr>
+      <td>
+          <label>
+              Vaccine 1:
+          </label>
+      </td>
+      <td> <input type="text" name="vaccine1" pattern="(([0][1-9])|([1-3][0-9]))[-](([0][1-9])|([1][0-2]))[-]([1-2][0-9][0-9][0-9])">
+  
+      </td>
+  <tr>
+      <tr>
+          <td>
+              <label>
+                  Vaccine 2:
+              </label>
+          </td>
+          <td> <input type="text" name="vaccine2"pattern="(([0][1-9])|([1-3][0-9]))[-](([0][1-9])|([1][0-2]))[-]([1-2][0-9][0-9][0-9])" >
+      
+          </td>
+      </tr>
+      <tr>
+          
+      <td>
+          <label>
+              Vaccine 3:
+          </label>
+      </td>
+      <td> <input type="text" name="vaccine3" pattern="(([0][1-9])|([1-3][0-9]))[-](([0][1-9])|([1][0-2]))[-]([1-2][0-9][0-9][0-9])">
+  
+      </td>
+      </tr>
+      <tr>
+          <td>
+              <label>
+                  Vaccine 4:
+              </label>
+          </td>
+          <td>   <input type="text" name="vaccine4" pattern="(([0][1-9])|([1-3][0-9]))[-](([0][1-9])|([1][0-2]))[-]([1-2][0-9][0-9][0-9])">
+      
+          </td>
+      </tr>
+      
+  
+  
+  <tr>
+      <td>
+          <label>
+              Enter a company Pfizer/Moderna:
+          </label>
+      </td>
+      <td>
+          <label>
+            <input type="text" name="company" pattern="([Mm][Oo][Dd][Ee][Rr][Nn][Aa])|([Pp][Ff][Ii][Zz][Ee][Rr])" >
+  
+          </label>
+      </td>
+  </tr>
+  
+  <tr>
+      <td>
+          <label>
+              Start Covid 19:
+          </label>
+      </td>
+      <td>
+          <label>
+            <input type="text" name="covid19" pattern="(([0][1-9])|([1-3][0-9]))[-](([0][1-9])|([1][0-2]))[-]([1-2][0-9][0-9][0-9])">
+  
+          </label>
+      </td>
+  </tr>
+  
+  <tr>
+      <td>
+          <label>
+              Finish Covid 19:
+          </label>
+      </td>
+      <td>
+          <label>
+            <input type="text" name="covid19" pattern="(([0][1-9])|([1-3][0-9]))[-](([0][1-9])|([1][0-2]))[-]([1-2][0-9][0-9][0-9])">
+  
+          </label>
+      </td>
+  </tr>
+  <tr></tr>
+  
+  <tr>
+    <td>
+      <input type="submit" name="Add" value="Add">
+  </td>
+  </tr>
+  
+            
+              
+              
+        </form>
+      </table>
+
+  <body>
+  </html>
