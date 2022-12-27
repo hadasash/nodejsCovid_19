@@ -1,18 +1,22 @@
 # nodejsCovid_19
 CRUD with mongoDB
 
-Technologies
+Technologies:
+
 Backend - NodeJS Frontend - HTML Database - mongoDB
 
-Description
+Description:
+
 The system contains data of people who have had COVID-19 symptoms including date of illness, number and dates of vaccines and personal information.
 
-Installations
+Installations:
+
 *install the Node.js last version *install visual studio code *install mongoDB studio *install Robo 3T
 
 Once all these had been installed, you can download the project dependendencies with: *cd mysite *npm install To run the application locally: *npm start
 
-screenshots-
+screenshots:
+
 
 ![image](https://user-images.githubusercontent.com/73214024/209463946-46994cf7-8aad-4a51-9cf9-282b0b6ef548.png)
 
