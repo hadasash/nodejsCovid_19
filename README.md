@@ -3,7 +3,9 @@ CRUD with mongoDB
 
 Technologies:
 
-Backend - NodeJS Frontend - HTML Database - mongoDB
+Backend - NodeJS
+Frontend - HTML css
+Database - mongoDB
 
 Description:
 
